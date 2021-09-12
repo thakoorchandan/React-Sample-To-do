@@ -1,0 +1,52 @@
+.main{
+    margin: auto;
+    height: auto;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.main h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+.main input{
+    margin-left: 38%;
+    width: 20rem;
+    padding: 10px;
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+.main>button {
+   margin-left: 10px;
+   height: 52.5px;
+   width: 6%;
+   outline: 0;
+   border: 2px solid black;
+   font-size: 25px;
+}
+
+.main>button:hover{
+    background-color: grey;
+    color: white;
+}
+
+.taskdiv{
+    margin: auto;
+    height: 3rem;
+    width: 20rem;
+    font-size: 25px;
+}
+
+.tasktext{
+    margin-top: 10%;
+    padding: 20px 20px 20px 20px;
+}
+
+.tasktext button{
+    float: right;
+    height: 2rem;
+    width: 30%;
+    border: 1.5px solid black;
+}
