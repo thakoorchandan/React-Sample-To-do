@@ -41,7 +41,7 @@ function Todo(){
 
             <div className="taskdiv">
                 {taskList.map((t)=>(
-                    <div>{t.value}<button onClick={(e)=>deleteTask(e, t.id)}>Delete</button></div>
+                    <div className="tasktext">{t.value}<button onClick={(e)=>deleteTask(e, t.id)}>Delete</button></div>
                 ))}
             </div>
 

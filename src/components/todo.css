@@ -25,10 +25,11 @@
    outline: 0;
    border: 2px solid black;
    font-size: 25px;
+   transition: 0.2s;
 }
 
 .main>button:hover{
-    background-color: grey;
+    background-color: orange;
     color: white;
 }
 
@@ -49,4 +50,10 @@
     height: 2rem;
     width: 30%;
     border: 1.5px solid black;
+    transition: 0.2s;
+}
+
+.tasktext button:hover{
+    background-color: red;
+    color: white;
 }
